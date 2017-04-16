@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BC16C112D0F54AC38B836A /* libPods-douban.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5234544302D059E6C72078 /* libPods-douban.a */; };
+		DDC271141EA3AE83009B119B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC271131EA3AE83009B119B /* main.m */; };
+		DDC271171EA3AE83009B119B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC271161EA3AE83009B119B /* AppDelegate.m */; };
+		DDC2711A1EA3AE83009B119B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC271191EA3AE83009B119B /* ViewController.m */; };
+		DDC2711D1EA3AE83009B119B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC2711B1EA3AE83009B119B /* Main.storyboard */; };
+		DDC2711F1EA3AE83009B119B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC2711E1EA3AE83009B119B /* Assets.xcassets */; };
+		DDC271221EA3AE83009B119B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC271201EA3AE83009B119B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		781B35C0205E1247C7150AA0 /* Pods-douban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douban.release.xcconfig"; path = "Pods/Target Support Files/Pods-douban/Pods-douban.release.xcconfig"; sourceTree = "<group>"; };
+		7D5234544302D059E6C72078 /* libPods-douban.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-douban.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EABA660FFABF72BACE26B71 /* Pods-douban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douban.debug.xcconfig"; path = "Pods/Target Support Files/Pods-douban/Pods-douban.debug.xcconfig"; sourceTree = "<group>"; };
+		DDC2710F1EA3AE83009B119B /* douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC271131EA3AE83009B119B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC271151EA3AE83009B119B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDC271161EA3AE83009B119B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDC271181EA3AE83009B119B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDC271191EA3AE83009B119B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDC2711C1EA3AE83009B119B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDC2711E1EA3AE83009B119B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC271211EA3AE83009B119B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDC271231EA3AE83009B119B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC2710C1EA3AE83009B119B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BC16C112D0F54AC38B836A /* libPods-douban.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3229B2C4E55D9753A66C38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D5234544302D059E6C72078 /* libPods-douban.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC271061EA3AE83009B119B = {
+			isa = PBXGroup;
+			children = (
+				DDC271111EA3AE83009B119B /* douban */,
+				DDC271101EA3AE83009B119B /* Products */,
+				F1F7A9B7A7EC4DA382F9D920 /* Pods */,
+				CF3229B2C4E55D9753A66C38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC271101EA3AE83009B119B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC2710F1EA3AE83009B119B /* douban.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC271111EA3AE83009B119B /* douban */ = {
+			isa = PBXGroup;
+			children = (
+				DDC271151EA3AE83009B119B /* AppDelegate.h */,
+				DDC271161EA3AE83009B119B /* AppDelegate.m */,
+				DDC271181EA3AE83009B119B /* ViewController.h */,
+				DDC271191EA3AE83009B119B /* ViewController.m */,
+				DDC2711B1EA3AE83009B119B /* Main.storyboard */,
+				DDC2711E1EA3AE83009B119B /* Assets.xcassets */,
+				DDC271201EA3AE83009B119B /* LaunchScreen.storyboard */,
+				DDC271231EA3AE83009B119B /* Info.plist */,
+				DDC271121EA3AE83009B119B /* Supporting Files */,
+			);
+			path = douban;
+			sourceTree = "<group>";
+		};
+		DDC271121EA3AE83009B119B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC271131EA3AE83009B119B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1F7A9B7A7EC4DA382F9D920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EABA660FFABF72BACE26B71 /* Pods-douban.debug.xcconfig */,
+				781B35C0205E1247C7150AA0 /* Pods-douban.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC2710E1EA3AE83009B119B /* douban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC271261EA3AE83009B119B /* Build configuration list for PBXNativeTarget "douban" */;
+			buildPhases = (
+				F92564D7859AB2F21BB5DCC7 /* [CP] Check Pods Manifest.lock */,
+				DDC2710B1EA3AE83009B119B /* Sources */,
+				DDC2710C1EA3AE83009B119B /* Frameworks */,
+				DDC2710D1EA3AE83009B119B /* Resources */,
+				DDA49FE1AD1426C77C2297CB /* [CP] Embed Pods Frameworks */,
+				FE842E47B19DD7893BA8D346 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = douban;
+			productName = douban;
+			productReference = DDC2710F1EA3AE83009B119B /* douban.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC271071EA3AE83009B119B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "杨洋";
+				TargetAttributes = {
+					DDC2710E1EA3AE83009B119B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDC2710A1EA3AE83009B119B /* Build configuration list for PBXProject "douban" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC271061EA3AE83009B119B;
+			productRefGroup = DDC271101EA3AE83009B119B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC2710E1EA3AE83009B119B /* douban */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC2710D1EA3AE83009B119B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC271221EA3AE83009B119B /* LaunchScreen.storyboard in Resources */,
+				DDC2711F1EA3AE83009B119B /* Assets.xcassets in Resources */,
+				DDC2711D1EA3AE83009B119B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDA49FE1AD1426C77C2297CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-douban/Pods-douban-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F92564D7859AB2F21BB5DCC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE842E47B19DD7893BA8D346 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-douban/Pods-douban-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC2710B1EA3AE83009B119B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC2711A1EA3AE83009B119B /* ViewController.m in Sources */,
+				DDC271171EA3AE83009B119B /* AppDelegate.m in Sources */,
+				DDC271141EA3AE83009B119B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDC2711B1EA3AE83009B119B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC2711C1EA3AE83009B119B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDC271201EA3AE83009B119B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC271211EA3AE83009B119B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC271241EA3AE83009B119B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDC271251EA3AE83009B119B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC271271EA3AE83009B119B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EABA660FFABF72BACE26B71 /* Pods-douban.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = douban/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.douban.douban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDC271281EA3AE83009B119B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781B35C0205E1247C7150AA0 /* Pods-douban.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = douban/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.douban.douban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC2710A1EA3AE83009B119B /* Build configuration list for PBXProject "douban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC271241EA3AE83009B119B /* Debug */,
+				DDC271251EA3AE83009B119B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC271261EA3AE83009B119B /* Build configuration list for PBXNativeTarget "douban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC271271EA3AE83009B119B /* Debug */,
+				DDC271281EA3AE83009B119B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC271071EA3AE83009B119B /* Project object */;
+}
